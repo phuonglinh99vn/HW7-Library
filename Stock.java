@@ -1,23 +1,23 @@
 package HW7;
 
 public class Stock {
-	private int bookId;
+	private String ISBN;
 	private int locationId;
 	private int quantity;
 	
 	public Stock(int bookId, int locationId, int quantity) {
 		super();
-		this.bookId = bookId;
+		this.ISBN = ISBN;
 		this.locationId = locationId;
 		this.quantity = quantity;
 	}
 	
-	public int getbookId() {
-		return bookId;
+	public String getISBN() {
+		return ISBN;
 	}
 
-	public void setbookId(int bookId) {
-		this.bookId = bookId;
+	public void setISBN(String ISBN) {
+		this.ISBN = ISBN;
 	}
 
 	public int getlocationId() {
